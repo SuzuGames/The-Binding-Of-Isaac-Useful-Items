@@ -1,0 +1,80 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TheFool"
+      },
+      {
+        "value": "CUSTOM:TheMagician"
+      },
+      {
+        "value": "CUSTOM:TheHighPriestess"
+      },
+      {
+        "value": "CUSTOM:TheEmpress"
+      },
+      {
+        "value": "CUSTOM:TheEmperor"
+      },
+      {
+        "value": "CUSTOM:TheHierophant"
+      },
+      {
+        "value": "CUSTOM:TheLovers"
+      },
+      {
+        "value": "CUSTOM:TheChariot"
+      },
+      {
+        "value": "CUSTOM:Justice"
+      },
+      {
+        "value": "CUSTOM:TheHermit"
+      },
+      {
+        "value": "CUSTOM:WheelOfFortune"
+      },
+      {
+        "value": "CUSTOM:Strength"
+      },
+      {
+        "value": "CUSTOM:TheHangedMan"
+      },
+      {
+        "value": "CUSTOM:Death"
+      },
+      {
+        "value": "CUSTOM:Temperance"
+      },
+      {
+        "value": "CUSTOM:TheDevil"
+      },
+      {
+        "value": "CUSTOM:TheTower"
+      },
+      {
+        "value": "CUSTOM:TheStars"
+      },
+      {
+        "value": "CUSTOM:TheMoon"
+      },
+      {
+        "value": "CUSTOM:TheSun"
+      },
+      {
+        "value": "CUSTOM:Judgement"
+      },
+      {
+        "value": "CUSTOM:TheWorld"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "card",
+    "namespace": "mod"
+  }
+}

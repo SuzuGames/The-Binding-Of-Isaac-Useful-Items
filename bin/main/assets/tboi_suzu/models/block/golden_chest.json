@@ -1,0 +1,10 @@
+{
+  "parent": "tboi_suzu:custom/model",
+  "textures": {
+    "all": "tboi_suzu:block/texture_chest",
+    "particle": "tboi_suzu:block/texture_chest",
+    "0": "tboi_suzu:block/texture_chest",
+    "missing": "tboi_suzu:block/"
+  },
+  "render_type": "solid"
+}

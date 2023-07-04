@@ -1,0 +1,20 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Key"
+      },
+      {
+        "value": "CUSTOM:GoldenKey"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "key",
+    "namespace": "mod"
+  }
+}

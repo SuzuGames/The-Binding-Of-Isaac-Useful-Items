@@ -1,0 +1,20 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Devil's Pact",
+    "icon": "darkheart.png",
+    "color": {
+      "value": -12369085,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SoulProtectionEffectActiveTickCondition"
+    }
+  }
+}

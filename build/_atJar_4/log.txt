@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\Suzu.DESKTOP-ST8TI9D\.gradle\jdks\adoptium-17-x64-hotspot-windows\jdk-17.0.7+7\bin\java.exe
+Arguments: '--inJar, C:\Users\Suzu.DESKTOP-ST8TI9D\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-injected.jar, --outJar, C:\Users\Suzu.DESKTOP-ST8TI9D\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4.jar, --logFile, accesstransform.log, --atFile, C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\the_binding_of_isaac 1_16\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Suzu.DESKTOP-ST8TI9D\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\the_binding_of_isaac 1_16\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

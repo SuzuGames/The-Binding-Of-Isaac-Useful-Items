@@ -1,0 +1,26 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RedHeart"
+      },
+      {
+        "value": "CUSTOM:SoulHeart"
+      },
+      {
+        "value": "CUSTOM:BlendedHeart"
+      },
+      {
+        "value": "CUSTOM:EternalHeart"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "heart",
+    "namespace": "mod"
+  }
+}

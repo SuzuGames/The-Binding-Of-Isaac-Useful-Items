@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tboi_suzu:block/angel_chest"
+    },
+    "facing=east": {
+      "model": "tboi_suzu:block/angel_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tboi_suzu:block/angel_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tboi_suzu:block/angel_chest",
+      "y": 270
+    }
+  }
+}

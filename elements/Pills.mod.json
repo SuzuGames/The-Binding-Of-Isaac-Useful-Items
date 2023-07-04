@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Pills",
+    "icon": {
+      "value": "CUSTOM:Pill1"
+    },
+    "showSearch": false
+  }
+}

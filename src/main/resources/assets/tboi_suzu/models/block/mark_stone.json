@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tboi_suzu:block/stone_mark3",
+    "up": "tboi_suzu:block/stone_mark3",
+    "north": "tboi_suzu:block/stone_mark2",
+    "east": "tboi_suzu:block/stone_mark1",
+    "south": "tboi_suzu:block/stone_mark2",
+    "west": "tboi_suzu:block/stone_mark1",
+    "particle": "tboi_suzu:block/stone_mark3"
+  },
+  "render_type": "solid"
+}

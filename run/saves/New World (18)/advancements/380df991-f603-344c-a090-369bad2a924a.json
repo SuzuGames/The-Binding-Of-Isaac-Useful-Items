@@ -1,0 +1,37 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-01-07 17:37:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2023-01-08 16:43:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-01-28 16:32:17 +0100",
+      "minecraft:spider": "2023-01-28 23:40:17 +0100",
+      "minecraft:creeper": "2023-01-28 15:44:59 +0100",
+      "minecraft:slime": "2023-01-28 15:40:04 +0100",
+      "minecraft:zombie": "2023-01-08 16:43:29 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-01-07 17:36:10 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-01-28 16:32:21 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

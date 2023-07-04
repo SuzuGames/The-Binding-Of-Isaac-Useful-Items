@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "tboi_suzu:charged_the_chariot",
+    "tboi_suzu:charged_the_moon",
+    "tboi_suzu:charged_the_hierophant",
+    "tboi_suzu:charged_justice",
+    "tboi_suzu:charged_the_stars",
+    "tboi_suzu:charged_strengh",
+    "tboi_suzu:charged_death",
+    "tboi_suzu:charged_the_devil",
+    "tboi_suzu:charged_the_hermit",
+    "tboi_suzu:charged_the_hanged_man",
+    "tboi_suzu:charged_judgement",
+    "tboi_suzu:charged_the_magician",
+    "tboi_suzu:charged_the_tower",
+    "tboi_suzu:charged_the_fool",
+    "tboi_suzu:charged_wheel_of_fortune",
+    "tboi_suzu:charged_the_high_priestess",
+    "tboi_suzu:charged_temperance",
+    "tboi_suzu:charged_the_sun",
+    "tboi_suzu:charged_the_world",
+    "tboi_suzu:charged_the_lovers",
+    "tboi_suzu:charged_the_emperor"
+  ]
+}

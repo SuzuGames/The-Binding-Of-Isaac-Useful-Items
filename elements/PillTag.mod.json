@@ -1,0 +1,53 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Pill1"
+      },
+      {
+        "value": "CUSTOM:Pill2"
+      },
+      {
+        "value": "CUSTOM:Pill3"
+      },
+      {
+        "value": "CUSTOM:Pill4"
+      },
+      {
+        "value": "CUSTOM:Pill5"
+      },
+      {
+        "value": "CUSTOM:Pill6"
+      },
+      {
+        "value": "CUSTOM:Pill7"
+      },
+      {
+        "value": "CUSTOM:Pill8"
+      },
+      {
+        "value": "CUSTOM:Pill9"
+      },
+      {
+        "value": "CUSTOM:Pill10"
+      },
+      {
+        "value": "CUSTOM:Pill11"
+      },
+      {
+        "value": "CUSTOM:Pill12"
+      },
+      {
+        "value": "CUSTOM:Pill13"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "pill",
+    "namespace": "mod"
+  }
+}

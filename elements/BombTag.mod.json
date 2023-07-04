@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Bomb"
+      },
+      {
+        "value": "CUSTOM:GoldenBomb"
+      },
+      {
+        "value": "CUSTOM:BigBomb"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "bomb",
+    "namespace": "mod"
+  }
+}

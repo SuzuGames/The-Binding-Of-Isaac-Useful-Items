@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Cards",
+    "icon": {
+      "value": "CUSTOM:TarotCard"
+    },
+    "showSearch": false
+  }
+}

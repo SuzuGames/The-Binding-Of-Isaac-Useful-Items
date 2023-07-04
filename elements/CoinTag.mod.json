@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Penny"
+      },
+      {
+        "value": "CUSTOM:Nickel"
+      },
+      {
+        "value": "CUSTOM:Dime"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "coin",
+    "namespace": "mod"
+  }
+}

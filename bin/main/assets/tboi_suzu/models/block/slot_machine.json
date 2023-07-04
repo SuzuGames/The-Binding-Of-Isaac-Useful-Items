@@ -1,0 +1,9 @@
+{
+  "parent": "tboi_suzu:custom/slotmachine",
+  "textures": {
+    "all": "tboi_suzu:block/texture",
+    "particle": "tboi_suzu:block/texture",
+    "0": "tboi_suzu:block/texture"
+  },
+  "render_type": "solid"
+}
