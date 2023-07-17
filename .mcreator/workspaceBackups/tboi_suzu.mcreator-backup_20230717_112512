@@ -5171,8 +5171,8 @@
       "registry_name": "moms_bottle_of_pills",
       "metadata": {
         "files": [
-          "src/main/java/net/suzu/thebindingofisaac/item/MomsBottleOfPillsItem.java",
-          "src/main/resources/assets/tboi_suzu/models/item/moms_bottle_of_pills.json"
+          "src/main/resources/assets/tboi_suzu/models/item/moms_bottle_of_pills.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/MomsBottleOfPillsItem.java"
         ]
       }
     },
@@ -5637,6 +5637,20 @@
           "src/main/resources/assets/tboi_suzu/blockstates/basement_floor.json",
           "src/main/java/net/suzu/thebindingofisaac/block/BasementFloorBlock.java",
           "src/main/resources/assets/tboi_suzu/models/item/basement_floor.json"
+        ]
+      }
+    },
+    {
+      "name": "QuestionCard",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "question_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/question_card.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/QuestionCardItem.java"
         ]
       }
     }
@@ -6135,8 +6149,8 @@
       "item_group.tboi_suzu.pills": "Pills",
       "item.tboi_suzu.charged_judgement": "XX - §5Judgement",
       "subtitles.item.holy_card": "Holy card",
-      "item.tboi_suzu.the_devil": "XV - The Devil",
       "item.tboi_suzu.eternal_heart": "Eternal heart",
+      "item.tboi_suzu.the_devil": "XV - The Devil",
       "item.tboi_suzu.the_fool": "0 - The Fool",
       "itemGroup.tabpills": "Pills",
       "item.tboi_suzu.charged_temperance": "XIV - §5Temperance",
@@ -6156,14 +6170,14 @@
       "block.tboi_suzu.mark_stone": "Mark Stone",
       "item.tboi_suzu.crack_the_sky": "Crack the Sky",
       "item.tboi_suzu.the_sun": "XIX - The Sun",
-      "entity.tboi_suzu.fly": "Fly",
       "item.tboi_suzu.samson_spawn_egg": "Samson Spawn Egg",
+      "entity.tboi_suzu.fly": "Fly",
       "item.tboi_suzu.charged_the_high_priestess": "II - §5The High Priestess",
-      "item.tboi_suzu.black_heart": "Black Heart",
       "subtitles.health_up": "Health up",
+      "item.tboi_suzu.black_heart": "Black Heart",
       "item.the_binding_of_isaac.the_devil": "XV - The Devil",
-      "item_group.tboi_suzu.hearts": "Hearts",
       "item.tboi_suzu.daemons_tail": "Daemon\u0027s Tail",
+      "item_group.tboi_suzu.hearts": "Hearts",
       "entity.tboi_suzu.blue_baby": "???",
       "block.tboi_suzu.slot_machine": "Slot Machine",
       "item.tboi_suzu.moms_bottle_of_pills": "Mom\u0027s Bottle of Pills",
@@ -6178,13 +6192,13 @@
       "item.tboi_suzu.soul_heart": "Soul heart",
       "item.the_binding_of_isaac.the_fool": "0 - The Fool",
       "subtitles.strength": "Strenght",
-      "item.tboi_suzu.charged_the_hierophant": "V - §5The Hierophant",
       "block.tboi_suzu.devils_cobblestone": "Devils Cobblestone",
+      "item.tboi_suzu.charged_the_hierophant": "V - §5The Hierophant",
       "item.tboi_suzu.golden_bomb": "Golden Bomb",
       "subtitles.entity.isaac.death": "Isaac dies",
       "itemGroup.tabkeys": "Keys",
-      "item.tboi_suzu.charged_the_tower": "XVI - §5The Tower",
       "item.tboi_suzu.maggys_faith": "Maggy\u0027s Faith",
+      "item.tboi_suzu.charged_the_tower": "XVI - §5The Tower",
       "effect.eternal": "Eternal Effect",
       "item.tboi_suzu.big_bomb": "Big Bomb",
       "subtitles.entity.isaac.hurt": "Isaac hurts",
@@ -6328,6 +6342,7 @@
       "item.tboi_suzu.razor_blade": "Razor Blade",
       "item.tboi_suzu.justice": "VIII - Justice",
       "item.tboi_suzu.red_heart": "Red heart",
+      "item.tboi_suzu.question_card": "? Card",
       "item.tboi_suzu.r_key": "R Key",
       "subtitles.balls_of_steel": "Balls of steel",
       "subtitles.temperance": "Temperance",
@@ -6373,7 +6388,7 @@
   "workspaceSettings": {
     "modid": "tboi_suzu",
     "modName": "The Binding Of Isaac [By Suzu]",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A mod about The Binding Of Isaac",
     "author": "Suzu",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/the-binding-of-isaac-by-suzu",
