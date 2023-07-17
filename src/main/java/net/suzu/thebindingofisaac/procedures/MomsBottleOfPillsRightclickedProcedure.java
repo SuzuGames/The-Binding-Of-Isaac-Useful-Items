@@ -1,6 +1,5 @@
 package net.suzu.thebindingofisaac.procedures;
 
-import net.suzu.thebindingofisaac.init.TboiSuzuModItems;
 import net.suzu.thebindingofisaac.TboiSuzuMod;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,7 +10,6 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.tags.ItemTags;
@@ -25,32 +23,30 @@ public class MomsBottleOfPillsRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TboiSuzuModItems.MOMS_BOTTLE_OF_PILLS.get()) {
-				if (itemstack.getOrCreateTag().getBoolean("Cooldown") == false) {
-					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z,
-								new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("tboi_suzu:pill"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR))));
-						entityToSpawn.setPickUpDelay(20);
-						_level.addFreshEntity(entityToSpawn);
-					}
-					if (!(new Object() {
-						public boolean checkGamemode(Entity _ent) {
-							if (_ent instanceof ServerPlayer _serverPlayer) {
-								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
-							}
-							return false;
+			if (itemstack.getOrCreateTag().getBoolean("Cooldown") == false) {
+				if (world instanceof ServerLevel _level) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z,
+							new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("tboi_suzu:pill"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR))));
+					entityToSpawn.setPickUpDelay(20);
+					_level.addFreshEntity(entityToSpawn);
+				}
+				if (!(new Object() {
+					public boolean checkGamemode(Entity _ent) {
+						if (_ent instanceof ServerPlayer _serverPlayer) {
+							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
+						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 						}
-					}.checkGamemode(entity))) {
-						if (entity instanceof Player _player)
-							_player.getCooldowns().addCooldown(itemstack.getItem(), (int) (6 * 30 * 20));
-						itemstack.getOrCreateTag().putBoolean("Cooldown", true);
-						TboiSuzuMod.queueServerWork((int) (6 * 30 * 20), () -> {
-							itemstack.getOrCreateTag().putBoolean("Cooldown", false);
-						});
+						return false;
 					}
+				}.checkGamemode(entity))) {
+					if (entity instanceof Player _player)
+						_player.getCooldowns().addCooldown(itemstack.getItem(), (int) (6 * 30 * 20));
+					itemstack.getOrCreateTag().putBoolean("Cooldown", true);
+					TboiSuzuMod.queueServerWork((int) (6 * 30 * 20), () -> {
+						itemstack.getOrCreateTag().putBoolean("Cooldown", false);
+					});
 				}
 			}
 		}

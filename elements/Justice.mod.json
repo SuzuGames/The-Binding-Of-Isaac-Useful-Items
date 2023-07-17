@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Drops an apple, a random pickaxe (except netherite pickaxe), a bomb and a random mineral."
+      "Drops 1 heart, 1 key, 1 bomb and 1 coin."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

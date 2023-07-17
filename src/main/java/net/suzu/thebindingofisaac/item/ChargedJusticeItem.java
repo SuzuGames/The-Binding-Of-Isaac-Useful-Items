@@ -32,7 +32,7 @@ public class ChargedJusticeItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Drops 3 red hearts, a diamond pickaxe, some bombs and a random mineral (netherite included)."));
+		list.add(Component.literal("Drops 1-3 hearst, 1-3 keys, 1-3 bombs and 1-3 coins."));
 	}
 
 	@Override

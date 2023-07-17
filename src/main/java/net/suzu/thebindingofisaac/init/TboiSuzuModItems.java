@@ -32,6 +32,7 @@ import net.suzu.thebindingofisaac.item.SamsonTearItem;
 import net.suzu.thebindingofisaac.item.RedHeartItem;
 import net.suzu.thebindingofisaac.item.RazorBladeItem;
 import net.suzu.thebindingofisaac.item.RKeyItem;
+import net.suzu.thebindingofisaac.item.QuestionCardItem;
 import net.suzu.thebindingofisaac.item.Pill9Item;
 import net.suzu.thebindingofisaac.item.Pill8Item;
 import net.suzu.thebindingofisaac.item.Pill7Item;
@@ -242,6 +243,7 @@ public class TboiSuzuModItems {
 	public static final RegistryObject<Item> DAEMONS_TAIL = REGISTRY.register("daemons_tail", () -> new DaemonsTailItem());
 	public static final RegistryObject<Item> BASEMENT_WALL = block(TboiSuzuModBlocks.BASEMENT_WALL);
 	public static final RegistryObject<Item> BASEMENT_FLOOR = block(TboiSuzuModBlocks.BASEMENT_FLOOR);
+	public static final RegistryObject<Item> QUESTION_CARD = REGISTRY.register("question_card", () -> new QuestionCardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

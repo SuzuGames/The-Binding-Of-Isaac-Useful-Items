@@ -1,0 +1,6395 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheFoolRightclicked",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_fool_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheFoolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheFool",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_fool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheFoolItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_fool.json"
+        ]
+      }
+    },
+    {
+      "name": "TarotCard",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarot_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/tarot_card.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/TarotCardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TarotCards",
+      "type": "tab",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarot_cards",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheMagician",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_magician",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/the_magician.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/TheMagicianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheHighPriestess",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_high_priestess",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheHighPriestessItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_high_priestess.json"
+        ]
+      }
+    },
+    {
+      "name": "TheHighPriestessRightclicked",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_high_priestess_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheHighPriestessRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheMagicianRightclicked",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_magician_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheMagicianRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheEmpressRightclicked",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_empress_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheEmpressRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheEmpress",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_empress",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheEmpressItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_empress.json"
+        ]
+      }
+    },
+    {
+      "name": "TheEmperor",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_emperor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheEmperorItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_emperor.json"
+        ]
+      }
+    },
+    {
+      "name": "TheEmperorRightclicked",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_emperor_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheEmperorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheHierophantRightclicked",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hierophant_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheHierophantRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheHierophant",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hierophant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheHierophantItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_hierophant.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLoversRightclicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lovers_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheLoversRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLovers",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lovers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/the_lovers.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/TheLoversItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheChariot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_chariot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheChariotItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_chariot.json"
+        ]
+      }
+    },
+    {
+      "name": "TheChariotRightclicked",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_chariot_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheChariotRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Justice",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/justice.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/JusticeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JusticeRightclicked",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/JusticeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheHermit",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hermit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheHermitItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_hermit.json"
+        ]
+      }
+    },
+    {
+      "name": "TheHermitRightclicked",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hermit_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheHermitRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WheelOfFortune",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheel_of_fortune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/wheel_of_fortune.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/WheelOfFortuneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WheelOfFortuneRightclicked",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheel_of_fortune_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/WheelOfFortuneRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strength",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/StrengthItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/strength.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthRightclicked",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/StrengthRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheHangedMan",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hanged_man",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheHangedManItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_hanged_man.json"
+        ]
+      }
+    },
+    {
+      "name": "TheHangedManRightclicked",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_hanged_man_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheHangedManRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/death.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/DeathItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathRightClicked",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/DeathRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Temperance",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temperance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TemperanceItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/temperance.json"
+        ]
+      }
+    },
+    {
+      "name": "TemperanceRightclicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temperance_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TemperanceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheDevil",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_devil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/the_devil.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/TheDevilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheDevilRightclicked",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_devil_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheDevilRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheTower",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_tower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheTowerItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_tower.json"
+        ]
+      }
+    },
+    {
+      "name": "TheTowerRightclicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_tower_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheTowerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheStars",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_stars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheStarsItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_stars.json"
+        ]
+      }
+    },
+    {
+      "name": "TheStarsRightclicked",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_stars_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheStarsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheMoon",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/the_moon.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/TheMoonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheSun",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheSunItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_sun.json"
+        ]
+      }
+    },
+    {
+      "name": "TheSunRightclicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheSunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheMoonRightclicked",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moon_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheMoonRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Judgement",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "judgement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/JudgementItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/judgement.json"
+        ]
+      }
+    },
+    {
+      "name": "JudgementRightclicked",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "judgement_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/JudgementRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheWorld",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheWorldItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_world.json"
+        ]
+      }
+    },
+    {
+      "name": "TheWorldRightclicked",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_world_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheWorldRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TranscendenceEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendence_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TranscendenceEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TranscendenceEffectExpires",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendence_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TranscendenceEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Transcendence",
+      "type": "potioneffect",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/potion/TranscendenceMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MarkStone",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mark_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/block/mark_stone.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/MarkStoneBlock.java",
+          "src/main/resources/assets/tboi_suzu/blockstates/mark_stone.json",
+          "src/main/java/net/suzu/thebindingofisaac/world/features/ores/MarkStoneFeature.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/mark_stone_biome_modifier.json",
+          "src/main/resources/data/tboi_suzu/worldgen/placed_feature/mark_stone.json",
+          "src/main/resources/data/tboi_suzu/worldgen/configured_feature/mark_stone.json",
+          "src/main/resources/assets/tboi_suzu/models/item/mark_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "MarkStoneLoot",
+      "type": "loottable",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mark_stone_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/loot_tables/blocks/mark_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "RedHeartRightclicked",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_heart_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/RedHeartRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedHeart",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/RedHeartItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/red_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulHeart",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/SoulHeartItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/soul_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulHeartRightclicked",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_heart_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulHeartRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hearts",
+      "type": "tab",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearts",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlendedHeart",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blended_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/blended_heart.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/BlendedHeartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlendedHeartRightclicked",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blended_heart_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BlendedHeartRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EternalHeart",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/EternalHeartItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/eternal_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "EternalEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EternalEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eternal",
+      "type": "potioneffect",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/potion/EternalMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "EternalHeartRightclicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal_heart_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EternalHeartRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EternalOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EternalOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PillRightclicked",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/PillRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pill1",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_1.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill2",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill2Item.java",
+          "src/main/resources/assets/tboi_suzu/models/item/pill_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Pills",
+      "type": "tab",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pills",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pill3",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_3.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill4",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill4Item.java",
+          "src/main/resources/assets/tboi_suzu/models/item/pill_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Pill5",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_5.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill5Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill6",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_6.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill6Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill7",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill7Item.java",
+          "src/main/resources/assets/tboi_suzu/models/item/pill_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Pill8",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_8.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill8Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill9",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_9.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill9Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill10",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_10.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill10Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill11",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill11Item.java",
+          "src/main/resources/assets/tboi_suzu/models/item/pill_11.json"
+        ]
+      }
+    },
+    {
+      "name": "Pill12",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/pill_12.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill12Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pill13",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/Pill13Item.java",
+          "src/main/resources/assets/tboi_suzu/models/item/pill_13.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveDiahrrea",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_diahrrea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ExplosiveDiahrreaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Penny",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penny",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/PennyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/penny.json"
+        ]
+      }
+    },
+    {
+      "name": "Pennies",
+      "type": "tab",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pennies",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nickel",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/nickel.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/NickelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dime",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/DimeItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/dime.json"
+        ]
+      }
+    },
+    {
+      "name": "BombRightclicked",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BombRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bomb",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/BombItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/bomb.json"
+        ]
+      }
+    },
+    {
+      "name": "Bombs",
+      "type": "tab",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bombs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChargedTheFool",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_fool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheFoolItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_fool.json"
+        ]
+      }
+    },
+    {
+      "name": "Bed",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheFoolRightclicked",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_fool_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheFoolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheMagician",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_magician",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_magician.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheMagicianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheMagicianRightClicked",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_magician_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheMagicianRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHighPriestess",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_high_priestess",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheHighPriestessItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_high_priestess.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHighPriestessRightclicked",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_high_priestess_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheHighPriestessRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheEmperor",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_emperor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_emperor.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheEmperorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheEmperorRightclicked",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_emperor_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheEmperorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHierophant",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hierophant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_hierophant.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheHierophantItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHierophantRightclicked",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hierophant_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheHierophantRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheLovers",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_lovers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheLoversItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_lovers.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheLoversRightClicked",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_lovers_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheLoversRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheChariot",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_chariot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheChariotItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_chariot.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheChariotRightclicked",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_chariot_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheChariotRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedJustice",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_justice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedJusticeItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_justice.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedJusticeRightclicked",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_justice_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedJusticeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHermit",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hermit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_hermit.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheHermitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHermitRightclicked",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hermit_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheHermitRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedWheelOfFortune",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_wheel_of_fortune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_wheel_of_fortune.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedWheelOfFortuneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedWheelOfFortuneRightclicked",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_wheel_of_fortune_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedWheelOfFortuneRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedStrengh",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_strengh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedStrenghItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_strengh.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedStrenghRightclicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_strengh_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedStrenghRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHangedMan",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hanged_man",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheHangedManItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_hanged_man.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheHangedManRightclicked",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_hanged_man_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheHangedManRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedDeath",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedDeathItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_death.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedDeathRightclicked",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_death_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedDeathRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTemperance",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_temperance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_temperance.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTemperanceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTemperanceRightclicked",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_temperance_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTemperanceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheDevil",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_devil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheDevilItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_devil.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheDevilRightclicked",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_devil_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheDevilRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheTower",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_tower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheTowerItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_tower.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheTowerRightclicked",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_tower_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheTowerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheStars",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_stars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheStarsItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_stars.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheStarsRightclicked",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_stars_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheStarsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheMoon",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_moon.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheMoonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheMoonRightclicked",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_moon_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheMoonRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheSun",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheSunItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_sun.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheSunRightclicked",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_sun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheSunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedJudgement",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_judgement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedJudgementItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/charged_judgement.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedJudgementRightclicked",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_judgement_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedJudgementRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheWorld",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/charged_the_world.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/ChargedTheWorldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MobDetector",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_detector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/MobDetectorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedTheWorldRightclicked",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_the_world_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ChargedTheWorldRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenChest",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/golden_chest.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/GoldenChestBlock.java",
+          "src/main/resources/assets/tboi_suzu/blockstates/golden_chest.json",
+          "src/main/resources/assets/tboi_suzu/models/block/golden_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "Chests",
+      "type": "tab",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chests",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Key",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/KeyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/key.json"
+        ]
+      }
+    },
+    {
+      "name": "Keys",
+      "type": "tab",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keys",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GoldenKey",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/GoldenKeyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/golden_key.json"
+        ]
+      }
+    },
+    {
+      "name": "KeyTag",
+      "type": "tag",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/key.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chest_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/GoldenChestOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenChestLoot",
+      "type": "loottable",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/goldenchest.json"
+        ]
+      }
+    },
+    {
+      "name": "NormalChest",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/block/normal_chest.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/NormalChestBlock.java",
+          "src/main/resources/assets/tboi_suzu/blockstates/normal_chest.json",
+          "src/main/resources/assets/tboi_suzu/models/item/normal_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "NormalChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_chest_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/NormalChestOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NormalChestLoot",
+      "type": "loottable",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/normalchest.json"
+        ]
+      }
+    },
+    {
+      "name": "AngelChest",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/block/angel_chest.json",
+          "src/main/resources/assets/tboi_suzu/models/item/angel_chest.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/AngelChestBlock.java",
+          "src/main/resources/assets/tboi_suzu/blockstates/angel_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "AngelChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_chest_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/AngelChestOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelChestLoot",
+      "type": "loottable",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/angelchest.json"
+        ]
+      }
+    },
+    {
+      "name": "RedChest",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/red_chest.json",
+          "src/main/resources/assets/tboi_suzu/blockstates/red_chest.json",
+          "src/main/resources/assets/tboi_suzu/models/block/red_chest.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/RedChestBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RedChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_chest_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/RedChestOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenBombRightclicked",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bomb_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/GoldenBombRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenBomb",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/GoldenBombItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/golden_bomb.json"
+        ]
+      }
+    },
+    {
+      "name": "BigBomb",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/BigBombItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/big_bomb.json"
+        ]
+      }
+    },
+    {
+      "name": "BigBombRightclicked",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_bomb_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BigBombRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RazorBladeRightclicked",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "razor_blade_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/RazorBladeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RazorBlade",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "razor_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/razor_blade.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/RazorBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChestBlock",
+      "type": "tag",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/chests.json"
+        ]
+      }
+    },
+    {
+      "name": "KeyTagNew",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_tag_new",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/key.json"
+        ]
+      }
+    },
+    {
+      "name": "ChestsTagNew",
+      "type": "tag",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chests_tag_new",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/blocks/chests.json"
+        ]
+      }
+    },
+    {
+      "name": "DadsKeyRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dads_key_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/DadsKeyRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DadsKey",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dads_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/DadsKeyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/dads_key.json"
+        ]
+      }
+    },
+    {
+      "name": "GuppysPaw",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guppys_paw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/GuppysPawItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/guppys_paw.json"
+        ]
+      }
+    },
+    {
+      "name": "GuppysPawRightclicked",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guppys_paw_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/GuppysPawRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HowToJump",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_to_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/HowToJumpItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/how_to_jump.json"
+        ]
+      }
+    },
+    {
+      "name": "HowToJumpRightclicked",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_to_jump_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/HowToJumpRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NormalChestStructure",
+      "type": "structure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_chest_structure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/world/features/NormalChestStructureFeature.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/normal_chest_structure_biome_modifier.json",
+          "src/main/resources/data/tboi_suzu/worldgen/configured_feature/normal_chest_structure.json",
+          "src/main/resources/data/tboi_suzu/worldgen/placed_feature/normal_chest_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenChestStructure",
+      "type": "structure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chest_structure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/world/features/GoldenChestStructureFeature.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/golden_chest_structure_biome_modifier.json",
+          "src/main/resources/data/tboi_suzu/worldgen/placed_feature/golden_chest_structure.json",
+          "src/main/resources/data/tboi_suzu/worldgen/configured_feature/golden_chest_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "RedChestStructure",
+      "type": "structure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_chest_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/worldgen/configured_feature/red_chest_structure.json",
+          "src/main/java/net/suzu/thebindingofisaac/world/features/RedChestStructureFeature.java",
+          "src/main/resources/data/tboi_suzu/worldgen/placed_feature/red_chest_structure.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/red_chest_structure_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "AngelChestStructure",
+      "type": "structure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_chest_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/worldgen/placed_feature/angel_chest_structure.json",
+          "src/main/resources/data/tboi_suzu/worldgen/configured_feature/angel_chest_structure.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/angel_chest_structure_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/world/features/AngelChestStructureFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "SlotMachine",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/slot_machine.json",
+          "src/main/resources/assets/tboi_suzu/blockstates/slot_machine.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/entity/SlotMachineBlockEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/block/slot_machine.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/SlotMachineBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CoinTag",
+      "type": "tag",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/coin.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartTag",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/heart.json"
+        ]
+      }
+    },
+    {
+      "name": "BombTag",
+      "type": "tag",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/bomb.json"
+        ]
+      }
+    },
+    {
+      "name": "CardTag",
+      "type": "tag",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/card.json"
+        ]
+      }
+    },
+    {
+      "name": "ECardTag",
+      "type": "tag",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_card_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/e_card.json"
+        ]
+      }
+    },
+    {
+      "name": "PillTag",
+      "type": "tag",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/tags/items/pill.json"
+        ]
+      }
+    },
+    {
+      "name": "SlotMachineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_machine_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SlotMachineOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodMachine",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/block/blood_machine.json",
+          "src/main/resources/assets/tboi_suzu/blockstates/blood_machine.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/BloodMachineBlock.java",
+          "src/main/resources/assets/tboi_suzu/models/item/blood_machine.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/entity/BloodMachineBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodMachineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_machine_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BloodMachineOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Isaac",
+      "type": "livingentity",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isaac",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/IsaacEntity.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/isaac_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/IsaacRenderer.java",
+          "src/main/resources/assets/tboi_suzu/models/item/isaac_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TearsShotOnKeyPressed",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tears_shot_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TearsShotOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TearsShot",
+      "type": "keybind",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tears_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/network/TearsShotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "TearsShotOnKeyReleased",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tears_shot_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TearsShotOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShotTears",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot_tears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/ShotTearsProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Gaper",
+      "type": "livingentity",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/GaperEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/gaper_spawn_egg.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/gaper_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/GaperRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Magdalene",
+      "type": "livingentity",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magdalene",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/MagdaleneRenderer.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/magdalene_biome_modifier.json",
+          "src/main/resources/assets/tboi_suzu/models/item/magdalene_spawn_egg.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/MagdaleneEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "livingentity",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/fly_spawn_egg.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/fly_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/FlyEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/FlyRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NewTears",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_tears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/NewTearsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cain",
+      "type": "livingentity",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/CainEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/CainRenderer.java",
+          "src/main/resources/assets/tboi_suzu/models/item/cain_spawn_egg.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/cain_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Judas",
+      "type": "livingentity",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "judas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/JudasEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/judas_spawn_egg.json",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/JudasRenderer.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/judas_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueBaby",
+      "type": "livingentity",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_baby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/blue_baby_spawn_egg.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/blue_baby_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/BlueBabyEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/BlueBabyRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Eva",
+      "type": "livingentity",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/EvaRenderer.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/EvaEntity.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/eva_biome_modifier.json",
+          "src/main/resources/assets/tboi_suzu/models/item/eva_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Samson",
+      "type": "livingentity",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samson",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/SamsonEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/SamsonRenderer.java",
+          "src/main/resources/assets/tboi_suzu/models/item/samson_spawn_egg.json",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/samson_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EvaWhoreOfBabylon",
+      "type": "livingentity",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_whore_of_babylon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/EvaWhoreOfBabylonRenderer.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/EvaWhoreOfBabylonEntity.java",
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/eva_whore_of_babylon_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EvaWhoreOfBabylonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_whore_of_babylon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EvaWhoreOfBabylonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvaWhoreOfBabylonOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_whore_of_babylon_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EvaWhoreOfBabylonOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/EvaOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsaacTear",
+      "type": "rangeditem",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isaac_tear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/isaac_tear.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/IsaacTearItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/IsaacTearEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MagdaleneTear",
+      "type": "rangeditem",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magdalene_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/MagdaleneTearItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/MagdaleneTearEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/magdalene_tear.json"
+        ]
+      }
+    },
+    {
+      "name": "CainTear",
+      "type": "rangeditem",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cain_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/CainTearItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/CainTearEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/cain_tear.json"
+        ]
+      }
+    },
+    {
+      "name": "JudasTear",
+      "type": "rangeditem",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "judas_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/JudasTearEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/judas_tear.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/JudasTearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueBabyTear",
+      "type": "rangeditem",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_baby_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/BlueBabyTearItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/BlueBabyTearEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/blue_baby_tear.json"
+        ]
+      }
+    },
+    {
+      "name": "EvaTear",
+      "type": "rangeditem",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_tear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/eva_tear.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/EvaTearItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/EvaTearEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SamsonTear",
+      "type": "rangeditem",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samson_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/SamsonTearItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/samson_tear.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/SamsonTearEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EvaWhoreOfBabylonTear",
+      "type": "rangeditem",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eva_whore_of_babylon_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/EvaWhoreOfBabylonTearEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/item/EvaWhoreOfBabylonTearItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/eva_whore_of_babylon_tear.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBookOfBelial",
+      "type": "item",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_book_of_belial",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TheBookOfBelialItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/the_book_of_belial.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBookOfBelialRightclicked",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_book_of_belial_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/TheBookOfBelialRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Azazel",
+      "type": "livingentity",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azazel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tboi_suzu/forge/biome_modifier/azazel_biome_modifier.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/AzazelEntity.java",
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/AzazelRenderer.java",
+          "src/main/resources/assets/tboi_suzu/models/item/azazel_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AzazelTear",
+      "type": "rangeditem",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azazel_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/entity/AzazelTearEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/azazel_tear.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/AzazelTearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Brimstone",
+      "type": "particle",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brimstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/particle/BrimstoneParticle.java",
+          "src/main/resources/assets/tboi_suzu/particles/brimstone.json"
+        ]
+      }
+    },
+    {
+      "name": "AzazelTearWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azazel_tear_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/AzazelTearWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nothing",
+      "type": "item",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/nothing.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/NothingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TearProjectile",
+      "type": "rangeditem",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tear_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/TearProjectileItem.java",
+          "src/main/java/net/suzu/thebindingofisaac/entity/TearProjectileEntity.java",
+          "src/main/resources/assets/tboi_suzu/models/item/tear_projectile.json"
+        ]
+      }
+    },
+    {
+      "name": "Soul",
+      "type": "overlay",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/screens/SoulOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Soul1",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul2",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul3",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul4",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul5",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul6",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul7",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul8",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul9",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul10",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/Soul10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LostSoul",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/LostSoulProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulProtection",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_protection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulProtectionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SoulProtectionEffectActiveTickCondition",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_protection_effect_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulProtectionEffectActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugProcedure",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/DebugProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debug",
+      "type": "command",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/command/DebugCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AngelsBlessing",
+      "type": "potioneffect",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angels_blessing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/potion/AngelsBlessingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "DevilsPact",
+      "type": "potioneffect",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devils_pact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/potion/DevilsPactMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulN1",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN2",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DevilsCobblestone",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devils_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/devils_cobblestone.json",
+          "src/main/resources/assets/tboi_suzu/models/block/devils_cobblestone.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/DevilsCobblestoneBlock.java",
+          "src/main/resources/assets/tboi_suzu/blockstates/devils_cobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulN3",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN4",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN5",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN6",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN7",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN8",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN9",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulN10",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_n_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/SoulN10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackHeartRightclicked",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_heart_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BlackHeartRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackHeart",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/BlackHeartItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/black_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "AnarchistCookbook",
+      "type": "item",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anarchist_cookbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/anarchist_cookbook.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/AnarchistCookbookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnarchistCookbookRightclicked",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anarchist_cookbook_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/AnarchistCookbookRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookOfShadows",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_shadows",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/book_of_shadows.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/BookOfShadowsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BookOfShadowsRightclicked",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_shadows_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BookOfShadowsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrackTheSky",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crack_the_sky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/CrackTheSkyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/crack_the_sky.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackTheSkyRightClick",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crack_the_sky_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/CrackTheSkyRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForgottenLullaby",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgotten_lullaby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/ForgottenLullabyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/forgotten_lullaby.json"
+        ]
+      }
+    },
+    {
+      "name": "Soundtrack",
+      "type": "tab",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soundtrack",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MomsBottleOfPills",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moms_bottle_of_pills",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/MomsBottleOfPillsItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/moms_bottle_of_pills.json"
+        ]
+      }
+    },
+    {
+      "name": "MomsBottleOfPillsRightclicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moms_bottle_of_pills_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/MomsBottleOfPillsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RKey",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/RKeyItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/r_key.json"
+        ]
+      }
+    },
+    {
+      "name": "RKeyRightclicked",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_key_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/RKeyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beggar",
+      "type": "livingentity",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beggar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/client/renderer/BeggarRenderer.java",
+          "src/main/resources/assets/tboi_suzu/models/item/beggar_spawn_egg.json",
+          "src/main/java/net/suzu/thebindingofisaac/entity/BeggarEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BeggarRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beggar_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/BeggarRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyCard",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/holy_card.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/HolyCardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HolyMantleEffect",
+      "type": "potioneffect",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_mantle_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/potion/HolyMantleEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HolyMantle",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_mantle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/HolyMantleItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/holy_mantle.json"
+        ]
+      }
+    },
+    {
+      "name": "HolyMantleProcedure",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_mantle_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/HolyMantleProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyCardRightclicked",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_card_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/HolyCardRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrackedDice",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_dice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/cracked_dice.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/CrackedDiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IsTamed",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_tamed",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/IsTamedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsaacRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isaac_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/IsaacRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsSitting",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_sitting",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/procedures/IsSittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaggysFaith",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maggys_faith",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/MaggysFaithItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/maggys_faith.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverDollar",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dollar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/SilverDollarItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/silver_dollar.json"
+        ]
+      }
+    },
+    {
+      "name": "CurvedHorn",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curved_horn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/CurvedHornItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/curved_horn.json"
+        ]
+      }
+    },
+    {
+      "name": "Meconium",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meconium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/MeconiumItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/meconium.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackFeather",
+      "type": "item",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_feather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suzu/thebindingofisaac/item/BlackFeatherItem.java",
+          "src/main/resources/assets/tboi_suzu/models/item/black_feather.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodPenny",
+      "type": "item",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_penny",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/blood_penny.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/BloodPennyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DaemonsTail",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daemons_tail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/daemons_tail.json",
+          "src/main/java/net/suzu/thebindingofisaac/item/DaemonsTailItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BasementWall",
+      "type": "block",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basement_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/item/basement_wall.json",
+          "src/main/resources/assets/tboi_suzu/models/block/basement_wall.json",
+          "src/main/resources/assets/tboi_suzu/blockstates/basement_wall.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/BasementWallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BasementFloor",
+      "type": "block",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basement_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tboi_suzu/models/block/basement_floor.json",
+          "src/main/resources/assets/tboi_suzu/blockstates/basement_floor.json",
+          "src/main/java/net/suzu/thebindingofisaac/block/BasementFloorBlock.java",
+          "src/main/resources/assets/tboi_suzu/models/item/basement_floor.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "pill",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "TearsPressed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "absortion_level",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "xCoord_Crack",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "yCoord_Crack",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "zCoord_Crack",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "BeggarDropRate",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Reward",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "the_high_priestess",
+      "files": [
+        "thehighpriestess"
+      ],
+      "category": "voice",
+      "subtitle": "The Hight Priestess"
+    },
+    {
+      "name": "the_magician",
+      "files": [
+        "themagician"
+      ],
+      "category": "voice",
+      "subtitle": "The Magician"
+    },
+    {
+      "name": "the_empress",
+      "files": [
+        "theempress"
+      ],
+      "category": "voice",
+      "subtitle": "The Empress"
+    },
+    {
+      "name": "the_emperor",
+      "files": [
+        "theemperor"
+      ],
+      "category": "voice",
+      "subtitle": "The Emperor"
+    },
+    {
+      "name": "the_hierophant",
+      "files": [
+        "thehierophant"
+      ],
+      "category": "voice",
+      "subtitle": "The Hierophant"
+    },
+    {
+      "name": "the_lovers",
+      "files": [
+        "thelovers"
+      ],
+      "category": "voice",
+      "subtitle": "The Lovers"
+    },
+    {
+      "name": "the_chariot",
+      "files": [
+        "thechariot"
+      ],
+      "category": "voice",
+      "subtitle": "The Chariot"
+    },
+    {
+      "name": "justice",
+      "files": [
+        "justice"
+      ],
+      "category": "voice",
+      "subtitle": "Justice"
+    },
+    {
+      "name": "the_hermit",
+      "files": [
+        "thehermit"
+      ],
+      "category": "voice",
+      "subtitle": "The Hermit"
+    },
+    {
+      "name": "wheel_of_fortune",
+      "files": [
+        "wheeloffortune"
+      ],
+      "category": "voice",
+      "subtitle": "Wheel Of Fortune"
+    },
+    {
+      "name": "strength",
+      "files": [
+        "strength"
+      ],
+      "category": "voice",
+      "subtitle": "Strenght"
+    },
+    {
+      "name": "the_hanged_man",
+      "files": [
+        "thehangedman"
+      ],
+      "category": "voice",
+      "subtitle": "The Hanged Man"
+    },
+    {
+      "name": "death",
+      "files": [
+        "death"
+      ],
+      "category": "voice",
+      "subtitle": "Death"
+    },
+    {
+      "name": "temperance",
+      "files": [
+        "temperance"
+      ],
+      "category": "voice",
+      "subtitle": "Temperance"
+    },
+    {
+      "name": "the_devil",
+      "files": [
+        "thedevil"
+      ],
+      "category": "player",
+      "subtitle": "The Devil"
+    },
+    {
+      "name": "the_tower",
+      "files": [
+        "thetower"
+      ],
+      "category": "voice",
+      "subtitle": "The Tower"
+    },
+    {
+      "name": "the_stars",
+      "files": [
+        "thestars"
+      ],
+      "category": "voice",
+      "subtitle": "The Stars"
+    },
+    {
+      "name": "the_moon",
+      "files": [
+        "themoon"
+      ],
+      "category": "voice",
+      "subtitle": "The Moon"
+    },
+    {
+      "name": "judgment",
+      "files": [
+        "judgment"
+      ],
+      "category": "voice",
+      "subtitle": "Judgment"
+    },
+    {
+      "name": "the_world",
+      "files": [
+        "theworld"
+      ],
+      "category": "voice",
+      "subtitle": "The World"
+    },
+    {
+      "name": "za_warudo",
+      "files": [
+        "za_warudo"
+      ],
+      "category": "voice",
+      "subtitle": "ZA WARUDO!!!!"
+    },
+    {
+      "name": "gaper_sounds",
+      "files": [
+        "rawr_gaper"
+      ],
+      "category": "hostile",
+      "subtitle": "Gaper\u0027s sounds"
+    },
+    {
+      "name": "red_heart",
+      "files": [
+        "red_heart"
+      ],
+      "category": "player",
+      "subtitle": "Red heart"
+    },
+    {
+      "name": "eternal_heart",
+      "files": [
+        "eternal_heart"
+      ],
+      "category": "player",
+      "subtitle": "Eternal heart"
+    },
+    {
+      "name": "bad_gas",
+      "files": [
+        "bad_gas"
+      ],
+      "category": "voice",
+      "subtitle": "Bad gas"
+    },
+    {
+      "name": "bad_trip",
+      "files": [
+        "bad_trip"
+      ],
+      "category": "voice",
+      "subtitle": "Bad trip"
+    },
+    {
+      "name": "balls_of_steel",
+      "files": [
+        "balls_of_steel"
+      ],
+      "category": "voice",
+      "subtitle": "Balls of steel"
+    },
+    {
+      "name": "bombs_are_key",
+      "files": [
+        "bombs_are_key"
+      ],
+      "category": "voice",
+      "subtitle": "Bombs are key"
+    },
+    {
+      "name": "explosive_diarrhea",
+      "files": [
+        "explosive_diahhrea"
+      ],
+      "category": "voice",
+      "subtitle": "Explosive diarrhea"
+    },
+    {
+      "name": "health_up",
+      "files": [
+        "health_up"
+      ],
+      "category": "voice",
+      "subtitle": "Health up"
+    },
+    {
+      "name": "full_health",
+      "files": [
+        "full_health"
+      ],
+      "category": "voice",
+      "subtitle": "Full health"
+    },
+    {
+      "name": "health_down",
+      "files": [
+        "health_down"
+      ],
+      "category": "voice",
+      "subtitle": "Health down"
+    },
+    {
+      "name": "i_found_pills",
+      "files": [
+        "i_found_pills"
+      ],
+      "category": "voice",
+      "subtitle": "I found pills"
+    },
+    {
+      "name": "puberty",
+      "files": [
+        "puberty"
+      ],
+      "category": "voice",
+      "subtitle": "Puberty"
+    },
+    {
+      "name": "pretty_fly",
+      "files": [
+        "pretty_fly"
+      ],
+      "category": "voice",
+      "subtitle": "Pretty fly"
+    },
+    {
+      "name": "telepills",
+      "files": [
+        "telepills"
+      ],
+      "category": "voice",
+      "subtitle": "Telepills"
+    },
+    {
+      "name": "energy48",
+      "files": [
+        "48_hr_energy"
+      ],
+      "category": "voice",
+      "subtitle": "48 hour energy"
+    },
+    {
+      "name": "hematemesis",
+      "files": [
+        "hematemesis"
+      ],
+      "category": "voice",
+      "subtitle": "Hematemesis"
+    },
+    {
+      "name": "paralysis",
+      "files": [
+        "paralysis"
+      ],
+      "category": "voice",
+      "subtitle": "Paralysis"
+    },
+    {
+      "name": "amnesia",
+      "files": [
+        "amnesia"
+      ],
+      "category": "voice",
+      "subtitle": "Amnesia"
+    },
+    {
+      "name": "chest_open",
+      "files": [
+        "chest_open"
+      ],
+      "category": "block",
+      "subtitle": "Chest Open"
+    },
+    {
+      "name": "coin_slot",
+      "files": [
+        "coin_slot"
+      ],
+      "category": "block",
+      "subtitle": "Coin slot"
+    },
+    {
+      "name": "entity.isaac.hurt",
+      "files": [
+        "isaac_hurt_1",
+        "isaac_hurt_2",
+        "isaac_hurt_3"
+      ],
+      "category": "neutral",
+      "subtitle": "Isaac hurts"
+    },
+    {
+      "name": "entity.isaac.death",
+      "files": [
+        "isaac_death_1",
+        "isaac_death_2",
+        "isaac_death_3"
+      ],
+      "category": "neutral",
+      "subtitle": "Isaac dies"
+    },
+    {
+      "name": "entity.gaper.ambient",
+      "files": [
+        "gaper_ambient_1",
+        "gaper_ambient_2"
+      ],
+      "category": "hostile",
+      "subtitle": "Gaper ambient"
+    },
+    {
+      "name": "item.the_book_of_belial.use",
+      "files": [
+        "tboi_book_of_belial_sound_effect_getmp3.pro"
+      ],
+      "category": "player",
+      "subtitle": "The Book of Belial"
+    },
+    {
+      "name": "the_fool",
+      "files": [
+        "thefool"
+      ],
+      "category": "voice",
+      "subtitle": "The Fool"
+    },
+    {
+      "name": "item.soul_heart",
+      "files": [
+        "soul_heart"
+      ],
+      "category": "player",
+      "subtitle": "Soul heart"
+    },
+    {
+      "name": "item.black_heart",
+      "files": [
+        "blackheart"
+      ],
+      "category": "player",
+      "subtitle": "Black heart"
+    },
+    {
+      "name": "record.genesis",
+      "files": [
+        "genesis"
+      ],
+      "category": "record",
+      "subtitle": "Genesis"
+    },
+    {
+      "name": "the_sun",
+      "files": [
+        "thesun"
+      ],
+      "category": "voice",
+      "subtitle": "The Sun"
+    },
+    {
+      "name": "item.holy_card",
+      "files": [
+        "holycard"
+      ],
+      "category": "player",
+      "subtitle": "Holy card"
+    },
+    {
+      "name": "item.holy_mantle",
+      "files": [
+        "holymantle"
+      ],
+      "category": "player",
+      "subtitle": "Holy mantle breaks"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.tboi_suzu.gaper_spawn_egg": "Gaper Spawn Egg",
+      "entity.tboi_suzu.beggar": "Beggar",
+      "block.tboi_suzu.blood_machine": "Blood Machine",
+      "item.the_binding_of_isaac.the_tower": "XVI - The Tower",
+      "subtitles.item.holy_mantle": "Holy mantle breaks",
+      "item_group.tboi_suzu.keys": "Keys",
+      "effect.tboi_suzu.eternal": "Eternal Effect",
+      "subtitles.bombs_are_key": "Bombs are key",
+      "item_group.tboi_suzu.pills": "Pills",
+      "item.tboi_suzu.charged_judgement": "XX - §5Judgement",
+      "subtitles.item.holy_card": "Holy card",
+      "item.tboi_suzu.eternal_heart": "Eternal heart",
+      "item.tboi_suzu.the_devil": "XV - The Devil",
+      "item.tboi_suzu.the_fool": "0 - The Fool",
+      "itemGroup.tabpills": "Pills",
+      "item.tboi_suzu.charged_temperance": "XIV - §5Temperance",
+      "item.tboi_suzu.black_feather": "Black Feather",
+      "itemGroup.tabsoundtrack": "Soundtrack",
+      "block.tboi_suzu.angel_chest": "Angel Chest",
+      "itemGroup.tabhearts": "Hearts",
+      "item.tboi_suzu.charged_justice": "VIII - §5Justice",
+      "subtitles.full_health": "Full health",
+      "item.tboi_suzu.isaac_spawn_egg": "Isaac Spawn Egg",
+      "item.tboi_suzu.blue_baby_tear": "Tear",
+      "subtitles.health_down": "Health down",
+      "item.tboi_suzu.charged_wheel_of_fortune": "X - §5Wheel Of Fortune",
+      "item.tboi_suzu.silver_dollar": "Silver Dollar",
+      "item.the_binding_of_isaac.the_empress": "III - The Empress",
+      "subtitles.the_world": "The World",
+      "block.tboi_suzu.mark_stone": "Mark Stone",
+      "item.tboi_suzu.crack_the_sky": "Crack the Sky",
+      "item.tboi_suzu.the_sun": "XIX - The Sun",
+      "item.tboi_suzu.samson_spawn_egg": "Samson Spawn Egg",
+      "entity.tboi_suzu.fly": "Fly",
+      "item.tboi_suzu.charged_the_high_priestess": "II - §5The High Priestess",
+      "subtitles.health_up": "Health up",
+      "item.tboi_suzu.black_heart": "Black Heart",
+      "item.the_binding_of_isaac.the_devil": "XV - The Devil",
+      "item.tboi_suzu.daemons_tail": "Daemon\u0027s Tail",
+      "item_group.tboi_suzu.hearts": "Hearts",
+      "entity.tboi_suzu.blue_baby": "???",
+      "block.tboi_suzu.slot_machine": "Slot Machine",
+      "item.tboi_suzu.moms_bottle_of_pills": "Mom\u0027s Bottle of Pills",
+      "subtitles.the_empress": "The Empress",
+      "subtitles.item.black_heart": "Black heart",
+      "item.tboi_suzu.charged_the_stars": "XVII - §5The Stars",
+      "subtitles.entity.gaper.ambient": "Gaper ambient",
+      "effect.tboi_suzu.holy_mantle_effect": "Holy Mantle",
+      "item.tboi_suzu.charged_the_hermit": "IX - §5The Hermit",
+      "item.tboi_suzu.isaac_tear": "Tear",
+      "subtitles.justice": "Justice",
+      "item.tboi_suzu.soul_heart": "Soul heart",
+      "item.the_binding_of_isaac.the_fool": "0 - The Fool",
+      "subtitles.strength": "Strenght",
+      "block.tboi_suzu.devils_cobblestone": "Devils Cobblestone",
+      "item.tboi_suzu.charged_the_hierophant": "V - §5The Hierophant",
+      "item.tboi_suzu.golden_bomb": "Golden Bomb",
+      "subtitles.entity.isaac.death": "Isaac dies",
+      "itemGroup.tabkeys": "Keys",
+      "item.tboi_suzu.maggys_faith": "Maggy\u0027s Faith",
+      "item.tboi_suzu.charged_the_tower": "XVI - §5The Tower",
+      "effect.eternal": "Eternal Effect",
+      "item.tboi_suzu.big_bomb": "Big Bomb",
+      "subtitles.entity.isaac.hurt": "Isaac hurts",
+      "item.the_binding_of_isaac.judgement": "XX - Judgement",
+      "item.the_binding_of_isaac.wheel_of_fortune": "X - Wheel Of Fortune",
+      "subtitles.item.soul_heart": "Soul heart",
+      "item.the_binding_of_isaac.death": "XIII - Death",
+      "item.tboi_suzu.the_magician": "I - The Magician",
+      "subtitles.explosive_diarrhea": "Explosive diarrhea",
+      "item.the_binding_of_isaac.the_magician": "I - The Magician",
+      "subtitles.bad_trip": "Bad trip",
+      "subtitles.record.genesis": "Genesis",
+      "item.tboi_suzu.samson_tear": "Tear",
+      "item.tboi_suzu.the_stars": "XVII - The Stars",
+      "subtitles.chest_open": "Chest Open",
+      "item.tboi_suzu.meconium": "Meconium",
+      "entity.tboi_suzu.judas": "Judas",
+      "item.tboi_suzu.azazel_tear": "Tear",
+      "subtitles.the_chariot": "The Chariot",
+      "item.tboi_suzu.tear_projectile": "Tear",
+      "item.tboi_suzu.tarot_card": "Tarot Card",
+      "item.the_binding_of_isaac.the_moon": "XVIII - The Moon",
+      "item.tboi_suzu.charged_the_chariot": "VII - §5The Chariot",
+      "item.the_binding_of_isaac.the_hermit": "IX - The Hermit",
+      "item.tboi_suzu.nothing": "Nothing",
+      "item.tboi_suzu.the_world": "XXI - The World",
+      "entity.tboi_suzu.samson": "Samson",
+      "item.the_binding_of_isaac.the_emperor": "IV - The Emperor",
+      "item.tboi_suzu.charged_the_devil": "XV - §5The Devil",
+      "item.tboi_suzu.the_emperor": "IV - The Emperor",
+      "item.the_binding_of_isaac.the_world": "XXI - The World",
+      "subtitles.bad_gas": "Bad gas",
+      "item.tboi_suzu.judgement": "XX - Judgement",
+      "item.tboi_suzu.eva_whore_of_babylon_tear": "Tear",
+      "subtitles.i_found_pills": "I found pills",
+      "subtitles.item.the_book_of_belial.use": "The Book of Belial",
+      "item.the_binding_of_isaac.the_sun": "XIX - The Sun",
+      "item_group.tboi_suzu.soundtrack": "Soundtrack",
+      "subtitles.wheel_of_fortune": "Wheel Of Fortune",
+      "subtitles.the_moon": "The Moon",
+      "itemGroup.tabtarot_cards": "Cards",
+      "item.the_binding_of_isaac.the_hanged_man": "XII - The Hanged Man",
+      "effect.tboi_suzu.devils_pact": "Devil\u0027s Pact",
+      "item.tboi_suzu.death": "XIII - Death",
+      "item_group.tboi_suzu.chests": "Chests",
+      "subtitles.the_hierophant": "The Hierophant",
+      "entity.tboi_suzu.isaac": "Isaac",
+      "subtitles.the_emperor": "The Emperor",
+      "subtitles.paralysis": "Paralysis",
+      "entity.tboi_suzu.eva": "Eve",
+      "item.tboi_suzu.eva_tear": "Tear",
+      "item.tboi_suzu.the_hanged_man": "XII - The Hanged Man",
+      "item.tboi_suzu.book_of_shadows": "Book of Shadows",
+      "item.tboi_suzu.forgotten_lullaby": "Crack the Sky",
+      "block.tboi_suzu.basement_wall": "Basement Wall",
+      "subtitles.the_lovers": "The Lovers",
+      "item.the_binding_of_isaac.the_chariot": "VII - The Chariot",
+      "item.tboi_suzu.the_chariot": "VII - The Chariot",
+      "item.tboi_suzu.the_hermit": "IX - The Hermit",
+      "item.tboi_suzu.judas_tear": "Tear",
+      "item.tboi_suzu.charged_the_moon": "XVIII - §5The Moon",
+      "item.tboi_suzu.pill_5": "Pill",
+      "item.tboi_suzu.pill_6": "Pill",
+      "item.tboi_suzu.blended_heart": "Blended heart",
+      "item.tboi_suzu.pill_7": "Pill",
+      "item.tboi_suzu.pill_8": "Pill",
+      "item.tboi_suzu.pill_1": "Pill",
+      "item.tboi_suzu.pill_2": "Pill",
+      "subtitles.za_warudo": "ZA WARUDO!!!!",
+      "item.tboi_suzu.pill_3": "Pill",
+      "item.tboi_suzu.pill_4": "Pill",
+      "subtitles.the_sun": "The Sun",
+      "item.tboi_suzu.nickel": "Nickel",
+      "item.tboi_suzu.pill_9": "Pill",
+      "entity.tboi_suzu.azazel": "Azazel",
+      "subtitles.the_high_priestess": "The Hight Priestess",
+      "item.tboi_suzu.dads_key": "Dad\u0027s Key",
+      "block.tboi_suzu.golden_chest": "Golden Chest",
+      "effect.transcendence": "Transcendence",
+      "subtitles.justoi": "",
+      "subtitles.hematemesis": "Hematemesis",
+      "subtitles.red_heart": "Red heart",
+      "subtitles.the_fool": "The Fool",
+      "item.the_binding_of_isaac.the_high_priestess": "II - The High Priestess",
+      "item.tboi_suzu.the_empress": "III - The Empress",
+      "item.tboi_suzu.temperance": "XIV - Temperance",
+      "itemGroup.tabpennies": "Pennies",
+      "item.the_binding_of_isaac.strength": "XI - Strength",
+      "item.tboi_suzu.guppys_paw": "Guppy\u0027s Paw",
+      "item.tboi_suzu.magdalene_tear": "Tear",
+      "item.the_binding_of_isaac.the_lovers": "VI - The Lovers",
+      "subtitles.the_hermit": "The Hermit",
+      "item.tboi_suzu.how_to_jump": "How to Jump",
+      "item.tboi_suzu.charged_the_fool": "0 - §5The Fool",
+      "item.tboi_suzu.strength": "XI - Strength",
+      "item.tboi_suzu.bomb": "Bomb",
+      "item.tboi_suzu.charged_death": "XIII - §5Death",
+      "entity.tboi_suzu.cain": "Cain",
+      "block.tboi_suzu.basement_floor": "Basement Floor",
+      "subtitles.the_stars": "The Stars",
+      "item.tboi_suzu.charged_the_magician": "I - §5The Magician",
+      "entity.tboi_suzu.eva_whore_of_babylon": "Eve (Whore of Babylon)",
+      "item.tboi_suzu.holy_card": "Holy Card",
+      "item.the_binding_of_isaac.justice": "VIII - Justice",
+      "item.tboi_suzu.charged_the_emperor": "IV - §5The Emperor",
+      "itemGroup.tabchests": "Chests",
+      "subtitles.gaper_sounds": "Gaper\u0027s sounds",
+      "item.the_binding_of_isaac.tarot_card": "Tarot Card",
+      "item.tboi_suzu.the_lovers": "VI - The Lovers",
+      "item.tboi_suzu.pill_11": "Pill",
+      "item.tboi_suzu.azazel_spawn_egg": "Azazel Spawn Egg",
+      "item_group.tboi_suzu.pennies": "Pennies",
+      "item.tboi_suzu.pill_10": "Pill",
+      "item.tboi_suzu.pill_13": "Pill",
+      "item.tboi_suzu.pill_12": "Pill",
+      "item.tboi_suzu.charged_strengh": "XI - §5Strength",
+      "item.tboi_suzu.charged_the_hanged_man": "XII - §5The Hanged Man",
+      "block.tboi_suzu.red_chest": "Red Chest",
+      "item.tboi_suzu.cain_spawn_egg": "Cain Spawn Egg",
+      "item.tboi_suzu.charged_the_sun": "XIX - §5The Sun",
+      "item.tboi_suzu.the_book_of_belial": "The Book of Belial",
+      "item.tboi_suzu.anarchist_cookbook": "Anarchist Cookbook",
+      "item.tboi_suzu.judas_spawn_egg": "Judas Spawn Egg",
+      "subtitles.puberty": "Puberty",
+      "item.tboi_suzu.dime": "Dime",
+      "entity.tboi_suzu.magdalene": "Magdalene",
+      "effect.the_binding_of_isaac.transcendence": "Transcendence",
+      "item.tboi_suzu.golden_key": "Key",
+      "item.tboi_suzu.blood_penny": "Blood Penny",
+      "item.tboi_suzu.curved_horn": "Curved Horn",
+      "subtitles.the_magician": "The Magician",
+      "block.tboi_suzu.normal_chest": "Normal Chest",
+      "item.tboi_suzu.fly_spawn_egg": "Fly Spawn Egg",
+      "subtitles.amnesia": "Amnesia",
+      "key.tboi_suzu.tears_shot": "Tears Shot",
+      "item_group.tboi_suzu.tarot_cards": "Cards",
+      "item.tboi_suzu.the_high_priestess": "II - The High Priestess",
+      "itemGroup.tabbombs": "Bombs",
+      "effect.tboi_suzu.angels_blessing": "Angel\u0027s Blessing",
+      "subtitles.judgment": "Judgment",
+      "item.tboi_suzu.razor_blade": "Razor Blade",
+      "item.tboi_suzu.justice": "VIII - Justice",
+      "item.tboi_suzu.red_heart": "Red heart",
+      "item.tboi_suzu.r_key": "R Key",
+      "subtitles.balls_of_steel": "Balls of steel",
+      "subtitles.temperance": "Temperance",
+      "item.tboi_suzu.penny": "Penny",
+      "item.tboi_suzu.eva_spawn_egg": "Eve Spawn Egg",
+      "item.tboi_suzu.beggar_spawn_egg": "Beggar Spawn Egg",
+      "item.tboi_suzu.blue_baby_spawn_egg": "??? Spawn Egg",
+      "item.tboi_suzu.cain_tear": "Tear",
+      "subtitles.pretty_fly": "Pretty fly",
+      "item.tboi_suzu.wheel_of_fortune": "X - Wheel Of Fortune",
+      "subtitles.the_tower": "The Tower",
+      "item.tboi_suzu.key": "Key",
+      "item_group.tboi_suzu.items": "Items",
+      "subtitles.telepills": "Telepills",
+      "item.tboi_suzu.the_tower": "XVI - The Tower",
+      "subtitles.coin_slot": "Coin slot",
+      "subtitles.eternal_heart": "Eternal heart",
+      "itemGroup.tabitems": "Items",
+      "item.the_binding_of_isaac.the_stars": "XVII - The Stars",
+      "subtitles.death": "Death",
+      "item.tboi_suzu.charged_the_world": "XXI - §5The World",
+      "effect.tboi_suzu.transcendence": "Transcendence",
+      "subtitles.soul_heart": "Soul heart",
+      "subtitles.the_devil": "The Devil",
+      "item_group.tboi_suzu.bombs": "Bombs",
+      "item.the_binding_of_isaac.the_hierophant": "V - The Hierophant",
+      "item.tboi_suzu.holy_mantle": "Holy Mantle",
+      "entity.tboi_suzu.gaper": "Gaper",
+      "subtitles.energy48": "48 hour energy",
+      "item.tboi_suzu.the_hierophant": "V - The Hierophant",
+      "item.tboi_suzu.magdalene_spawn_egg": "Magdalene Spawn Egg",
+      "item.the_binding_of_isaac.temperance": "XIV - Temperance",
+      "subtitles.the_hanged_man": "The Hanged Man",
+      "item.tboi_suzu.cracked_dice": "Cracked Dice",
+      "item.tboi_suzu.charged_the_lovers": "VI - §5The Lovers",
+      "item.tboi_suzu.the_moon": "XVIII - The Moon"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tboi_suzu",
+    "modName": "The Binding Of Isaac [By Suzu]",
+    "version": "1.2.0",
+    "description": "A mod about The Binding Of Isaac",
+    "author": "Suzu",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/the-binding-of-isaac-by-suzu",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/SuzuGames/The-Binding-Of-Isaac-Useful-Items/main/update.json",
+    "modPicture": "tboi_mod_logo_long",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.suzu.thebindingofisaac",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300223515
+}

@@ -23,7 +23,7 @@ public class JusticeItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Drops an apple, a random pickaxe (except netherite pickaxe), a bomb and a random mineral."));
+		list.add(Component.literal("Drops 1 heart, 1 key, 1 bomb and 1 coin."));
 	}
 
 	@Override
