@@ -1,8 +1,10 @@
 {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/the-binding-of-isaac-by-suzu/files",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/the-binding-of-isaac-by-suzu/",
     "promos":
     {
         "1.19.4-latest": "1.2.1",
-        "1.19.4-recommended": "1.2.1"
+        "1.19.4-recommended": "1.2.1",
+        "1.20.1-latest": "1.2.2",
+        "1.20.1-recommended": "1.2.2"
     }
 }

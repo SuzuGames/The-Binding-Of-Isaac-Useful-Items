@@ -55,7 +55,7 @@ public class PillRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -83,7 +83,7 @@ public class PillRightclickedProcedure {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								"/summon area_effect_cloud ~ ~.50 ~ {Particle:\"snowflake 0 50 0 1\",Radius:8f,Duration:20,Effects:[{Id:19b,Amplifier:0b,Duration:100}]}");
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 30, 200, false, false));
 					TboiSuzuMod.queueServerWork(20, () -> {
 						if (entity instanceof LivingEntity _entity)
@@ -102,10 +102,7 @@ public class PillRightclickedProcedure {
 						if (entity instanceof LivingEntity _entity)
 							_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1);
 					} else {
-						{
-							Entity _entToDamage = entity;
-							_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 6);
-						}
+						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 6);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
 								_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tboi_suzu:bad_trip")), SoundSource.VOICE, 1, 1);
@@ -180,7 +177,7 @@ public class PillRightclickedProcedure {
 						}
 						loopNum = loopNum + 1;
 					}
-					if (entity instanceof Player _player && !_player.level.isClientSide())
+					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal((itemNum + ", " + itemNum2)), true);
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(Items.GOLD_INGOT);
@@ -254,7 +251,7 @@ public class PillRightclickedProcedure {
 					}
 				}
 				if ((entity.getCapability(TboiSuzuModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TboiSuzuModVariables.PlayerVariables())).pill == 9) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 200, 1, false, false));
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
@@ -376,9 +373,9 @@ public class PillRightclickedProcedure {
 					}
 				}
 				if ((entity.getCapability(TboiSuzuModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TboiSuzuModVariables.PlayerVariables())).pill == 15) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 40, 9, false, false));
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 9, false, false));
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
@@ -389,7 +386,7 @@ public class PillRightclickedProcedure {
 					}
 				}
 				if ((entity.getCapability(TboiSuzuModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TboiSuzuModVariables.PlayerVariables())).pill == 16) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 300, 9, false, false));
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {

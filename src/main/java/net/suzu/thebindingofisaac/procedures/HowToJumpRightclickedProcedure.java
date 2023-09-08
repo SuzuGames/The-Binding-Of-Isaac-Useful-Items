@@ -21,15 +21,15 @@ public class HowToJumpRightclickedProcedure {
 		if (!world.isClientSide()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TboiSuzuModItems.HOW_TO_JUMP.get()) {
 				if (itemstack.getOrCreateTag().getBoolean("Cooldown") == false) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20, 1, true, true));
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 1, false, false));
 					if (!(new Object() {
 						public boolean checkGamemode(Entity _ent) {
 							if (_ent instanceof ServerPlayer _serverPlayer) {
 								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+							} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 							}

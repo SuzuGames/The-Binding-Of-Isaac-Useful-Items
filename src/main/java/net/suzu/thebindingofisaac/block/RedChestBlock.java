@@ -10,7 +10,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -33,7 +32,7 @@ public class RedChestBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public RedChestBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL)
+		super(BlockBehaviour.Properties.of()
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tboi_suzu:chest_open")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.step")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.hit")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.fall"))))

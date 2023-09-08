@@ -35,7 +35,7 @@ public class EternalHeartRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -56,7 +56,7 @@ public class EternalHeartRightclickedProcedure {
 				if (entity instanceof LivingEntity _entity)
 					_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 2));
 			} else {
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(TboiSuzuModMobEffects.ETERNAL.get(), 6000, 0, true, true));
 			}
 			if (world instanceof Level _level) {

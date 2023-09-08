@@ -4,14 +4,17 @@
  */
 package net.suzu.thebindingofisaac.init;
 
+import net.suzu.thebindingofisaac.block.SpikesBlock;
 import net.suzu.thebindingofisaac.block.SlotMachineBlock;
 import net.suzu.thebindingofisaac.block.RedChestBlock;
+import net.suzu.thebindingofisaac.block.PinchosOffBlock;
 import net.suzu.thebindingofisaac.block.NormalChestBlock;
 import net.suzu.thebindingofisaac.block.MarkStoneBlock;
 import net.suzu.thebindingofisaac.block.GoldenChestBlock;
 import net.suzu.thebindingofisaac.block.DevilsCobblestoneBlock;
 import net.suzu.thebindingofisaac.block.BloodMachineBlock;
 import net.suzu.thebindingofisaac.block.BasementWallBlock;
+import net.suzu.thebindingofisaac.block.BasementStructureBlockBlock;
 import net.suzu.thebindingofisaac.block.BasementFloorBlock;
 import net.suzu.thebindingofisaac.block.AngelChestBlock;
 import net.suzu.thebindingofisaac.TboiSuzuMod;
@@ -34,4 +37,7 @@ public class TboiSuzuModBlocks {
 	public static final RegistryObject<Block> DEVILS_COBBLESTONE = REGISTRY.register("devils_cobblestone", () -> new DevilsCobblestoneBlock());
 	public static final RegistryObject<Block> BASEMENT_WALL = REGISTRY.register("basement_wall", () -> new BasementWallBlock());
 	public static final RegistryObject<Block> BASEMENT_FLOOR = REGISTRY.register("basement_floor", () -> new BasementFloorBlock());
+	public static final RegistryObject<Block> BASEMENT_STRUCTURE_BLOCK = REGISTRY.register("basement_structure_block", () -> new BasementStructureBlockBlock());
+	public static final RegistryObject<Block> SPIKES = REGISTRY.register("spikes", () -> new SpikesBlock());
+	public static final RegistryObject<Block> PINCHOS_OFF = REGISTRY.register("pinchos_off", () -> new PinchosOffBlock());
 }

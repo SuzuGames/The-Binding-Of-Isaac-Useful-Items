@@ -373,5 +373,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/goldenchest"
 }

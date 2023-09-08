@@ -1,0 +1,9 @@
+{
+  "parent": "tboi_suzu:custom/pinchos",
+  "textures": {
+    "all": "tboi_suzu:block/pinchos",
+    "particle": "tboi_suzu:block/pinchos",
+    "0": "tboi_suzu:block/pinchos"
+  },
+  "render_type": "solid"
+}

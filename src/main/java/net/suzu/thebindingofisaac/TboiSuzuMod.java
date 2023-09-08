@@ -16,6 +16,7 @@ package net.suzu.thebindingofisaac;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.suzu.thebindingofisaac.init.TboiSuzuModTabs;
 import net.suzu.thebindingofisaac.init.TboiSuzuModSounds;
 import net.suzu.thebindingofisaac.init.TboiSuzuModParticleTypes;
 import net.suzu.thebindingofisaac.init.TboiSuzuModMobEffects;
@@ -57,14 +58,15 @@ public class TboiSuzuMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TboiSuzuModSounds.REGISTRY.register(bus);
 		TboiSuzuModBlocks.REGISTRY.register(bus);
+		TboiSuzuModBlockEntities.REGISTRY.register(bus);
 		TboiSuzuModItems.REGISTRY.register(bus);
 		TboiSuzuModEntities.REGISTRY.register(bus);
-		TboiSuzuModBlockEntities.REGISTRY.register(bus);
 
-		TboiSuzuModParticleTypes.REGISTRY.register(bus);
+		TboiSuzuModTabs.REGISTRY.register(bus);
+		TboiSuzuModFeatures.REGISTRY.register(bus);
 		TboiSuzuModMobEffects.REGISTRY.register(bus);
 
-		TboiSuzuModFeatures.REGISTRY.register(bus);
+		TboiSuzuModParticleTypes.REGISTRY.register(bus);
 
 	}
 

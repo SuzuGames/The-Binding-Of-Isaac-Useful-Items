@@ -28,7 +28,7 @@ public class HolyMantleProcedureProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingHurtEvent event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity().level, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
+			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 		}
 	}
 
@@ -43,7 +43,7 @@ public class HolyMantleProcedureProcedure {
 			Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(TboiSuzuModItems.HOLY_MANTLE.get()));
 		if (!world.isClientSide()) {
 			if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(TboiSuzuModMobEffects.HOLY_MANTLE_EFFECT.get())) {
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 20, 200, false, false));
 				if (entity instanceof LivingEntity _entity)
 					_entity.removeEffect(TboiSuzuModMobEffects.HOLY_MANTLE_EFFECT.get());

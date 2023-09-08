@@ -9,7 +9,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
@@ -35,6 +34,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
@@ -50,7 +50,7 @@ public class EvaWhoreOfBabylonEntity extends PathfinderMob implements RangedAtta
 
 	public EvaWhoreOfBabylonEntity(EntityType<EvaWhoreOfBabylonEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 	}
@@ -110,7 +110,7 @@ public class EvaWhoreOfBabylonEntity extends PathfinderMob implements RangedAtta
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		EvaWhoreOfBabylonOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		EvaWhoreOfBabylonOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override
@@ -120,7 +120,7 @@ public class EvaWhoreOfBabylonEntity extends PathfinderMob implements RangedAtta
 
 	public static void init() {
 		SpawnPlacements.register(TboiSuzuModEntities.EVA_WHORE_OF_BABYLON.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

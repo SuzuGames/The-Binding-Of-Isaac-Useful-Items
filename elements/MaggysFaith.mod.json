@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "trinket_maggy27s_faith_icon",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Maggy's Faith",
     "rarity": "COMMON",
     "creativeTab": {

@@ -29,7 +29,7 @@ public class TheBookOfBelialRightclickedProcedure {
 				if (world.isClientSide())
 					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(TboiSuzuModItems.THE_BOOK_OF_BELIAL.get()));
 				if (!world.isClientSide()) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 140, 1, true, true));
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
@@ -42,7 +42,7 @@ public class TheBookOfBelialRightclickedProcedure {
 						public boolean checkGamemode(Entity _ent) {
 							if (_ent instanceof ServerPlayer _serverPlayer) {
 								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-							} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+							} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 							}

@@ -53,7 +53,7 @@ public class SoulOverlay {
 		double z = 0;
 		Player entity = Minecraft.getInstance().player;
 		if (entity != null) {
-			world = entity.level;
+			world = entity.level();
 			x = entity.getX();
 			y = entity.getY();
 			z = entity.getZ();
@@ -66,84 +66,64 @@ public class SoulOverlay {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (true) {
 			if (Soul1Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul3Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul5Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul7Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul9Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart_half.png"), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul10Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul8Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul6Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul4Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (Soul2Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/soulheart.png"), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN1Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN3Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN5Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN7Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN9Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart_half.png"), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN2Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"), posX + -22, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN4Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"), posX + -13, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN6Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"), posX + -4, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN8Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"), posX + 5, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 			if (SoulN10Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
+				event.getGuiGraphics().blit(new ResourceLocation("tboi_suzu:textures/screens/darkheart.png"), posX + 14, posY + -116, 0, 0, 9, 9, 9, 9);
 			}
 		}
 		RenderSystem.depthMask(true);

@@ -37,7 +37,7 @@ public class TheHighPriestessRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -59,9 +59,9 @@ public class TheHighPriestessRightclickedProcedure {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
 					}.compareDistOf(x, y, z)).findFirst().orElse(null));
-					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
+					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
 					}
 				}
 			} else if (!world.getEntitiesOfClass(Slime.class, AABB.ofSize(new Vec3(x, y, z), 15, 15, 15), e -> true).isEmpty()) {
@@ -71,17 +71,17 @@ public class TheHighPriestessRightclickedProcedure {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
 					}.compareDistOf(x, y, z)).findFirst().orElse(null));
-					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
+					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
 					}
 				}
 			} else {
 				{
 					Entity _ent = entity;
-					if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
+					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon minecraft:lightning_bolt ~ ~ ~");
 					}
 				}
 			}

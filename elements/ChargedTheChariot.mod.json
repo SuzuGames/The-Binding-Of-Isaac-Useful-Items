@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "thechariot",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "VII - §5The Chariot",
     "rarity": "COMMON",
     "creativeTab": {

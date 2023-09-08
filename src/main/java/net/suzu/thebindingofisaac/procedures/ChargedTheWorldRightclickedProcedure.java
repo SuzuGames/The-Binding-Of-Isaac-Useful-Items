@@ -25,7 +25,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Comparator;
 
@@ -38,7 +37,7 @@ public class ChargedTheWorldRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -53,14 +52,13 @@ public class ChargedTheWorldRightclickedProcedure {
 						_player.getInventory().setChanged();
 				}
 			}
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0, false, false));
 			{
 				final Vec3 _center = new Vec3(x, y, z);
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
-						.collect(Collectors.toList());
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 300, 1, false, false));
 				}
 			}

@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="tboi_suzu"
-version="1.2.1"
+version="1.2.2"
 displayName="The Binding Of Isaac [By Suzu]"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/the-binding-of-isaac-by-suzu"
@@ -16,7 +16,7 @@ description="A mod about The Binding Of Isaac"
 [[dependencies.tboi_suzu]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

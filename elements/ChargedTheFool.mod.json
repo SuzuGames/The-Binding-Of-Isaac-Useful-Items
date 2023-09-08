@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "thefool",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "0 - §5The Fool",
     "rarity": "COMMON",
     "creativeTab": {

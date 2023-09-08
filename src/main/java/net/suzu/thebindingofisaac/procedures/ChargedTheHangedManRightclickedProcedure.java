@@ -32,7 +32,7 @@ public class ChargedTheHangedManRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -48,10 +48,10 @@ public class ChargedTheHangedManRightclickedProcedure {
 				}
 			}
 			if (Mth.nextInt(RandomSource.create(), 1, 100) <= 10) {
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(TboiSuzuModMobEffects.TRANSCENDENCE.get(), 999999, 0, true, true));
 			} else {
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(TboiSuzuModMobEffects.TRANSCENDENCE.get(), 1200, 0, true, true));
 			}
 			TboiSuzuMod.queueServerWork(10, () -> {

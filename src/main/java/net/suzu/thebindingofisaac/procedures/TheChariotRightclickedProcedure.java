@@ -30,7 +30,7 @@ public class TheChariotRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -45,11 +45,11 @@ public class TheChariotRightclickedProcedure {
 						_player.getInventory().setChanged();
 				}
 			}
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 1, true, true));
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 200, true, true));
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2, true, true));
 			TboiSuzuMod.queueServerWork(10, () -> {
 				if (world instanceof Level _level) {

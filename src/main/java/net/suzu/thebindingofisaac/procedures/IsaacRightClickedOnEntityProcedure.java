@@ -12,11 +12,11 @@ public class IsaacRightClickedOnEntityProcedure {
 		if (entity instanceof TamableAnimal _tamEnt ? _tamEnt.isTame() : false) {
 			if (entity.getPersistentData().getBoolean("sit") == false) {
 				entity.getPersistentData().putBoolean("sit", true);
-				if (sourceentity instanceof Player _player && !_player.level.isClientSide())
+				if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("Isaac is sitting now."), false);
 			} else {
 				entity.getPersistentData().putBoolean("sit", false);
-				if (sourceentity instanceof Player _player && !_player.level.isClientSide())
+				if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("Isaac isn't sitting now."), false);
 			}
 		}

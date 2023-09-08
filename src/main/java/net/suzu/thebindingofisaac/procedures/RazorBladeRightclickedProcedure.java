@@ -28,24 +28,21 @@ public class RazorBladeRightclickedProcedure {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayer _serverPlayer) {
 							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+						} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 						}
 						return false;
 					}
 				}.checkGamemode(entity))) {
-					{
-						Entity _entToDamage = entity;
-						_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), (float) (Mth.nextInt(RandomSource.create(), 1, 3) * 2));
-					}
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), (float) (Mth.nextInt(RandomSource.create(), 1, 3) * 2));
 				}
-				if (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(MobEffects.DAMAGE_BOOST)) {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _livEnt7 && _livEnt7.hasEffect(MobEffects.DAMAGE_BOOST)) {
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600,
 								(int) ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DAMAGE_BOOST) ? _livEnt.getEffect(MobEffects.DAMAGE_BOOST).getAmplifier() : 0) + 1), true, true));
 				} else {
-					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0, true, true));
 				}
 			}

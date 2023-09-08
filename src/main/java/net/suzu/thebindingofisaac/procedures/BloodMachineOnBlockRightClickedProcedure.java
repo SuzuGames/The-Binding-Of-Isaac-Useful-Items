@@ -23,10 +23,7 @@ public class BloodMachineOnBlockRightClickedProcedure {
 			return;
 		double randomMoney = 0;
 		if (!world.isClientSide()) {
-			{
-				Entity _entToDamage = entity;
-				_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
-			}
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
 			randomMoney = Mth.nextInt(RandomSource.create(), 1, 100);
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);

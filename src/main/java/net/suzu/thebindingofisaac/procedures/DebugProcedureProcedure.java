@@ -10,7 +10,7 @@ public class DebugProcedureProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _player && !_player.level.isClientSide())
+		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("Soul: " + (entity.getCapability(TboiSuzuModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TboiSuzuModVariables.PlayerVariables())).absortion_level)), false);
 	}
 }

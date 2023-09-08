@@ -38,7 +38,7 @@ public class BeggarEntity extends PathfinderMob {
 
 	public BeggarEntity(EntityType<BeggarEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -111,13 +111,13 @@ public class BeggarEntity extends PathfinderMob {
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 		super.mobInteract(sourceentity, hand);
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
 		Entity entity = this;
-		Level world = this.level;
+		Level world = this.level();
 
 		BeggarRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity, itemstack);
 		return retval;

@@ -8,7 +8,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.SpawnEggItem;
@@ -40,6 +39,7 @@ import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -55,7 +55,7 @@ public class BlueBabyEntity extends TamableAnimal implements RangedAttackMob {
 
 	public BlueBabyEntity(EntityType<BlueBabyEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 	}
@@ -110,23 +110,23 @@ public class BlueBabyEntity extends TamableAnimal implements RangedAttackMob {
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
-		} else if (this.level.isClientSide()) {
-			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack)) ? InteractionResult.sidedSuccess(this.level.isClientSide()) : InteractionResult.PASS;
+		} else if (this.level().isClientSide()) {
+			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack)) ? InteractionResult.sidedSuccess(this.level().isClientSide()) : InteractionResult.PASS;
 		} else {
 			if (this.isTame()) {
 				if (this.isOwnedBy(sourceentity)) {
 					if (item.isEdible() && this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
 						this.usePlayerItem(sourceentity, hand, itemstack);
 						this.heal((float) item.getFoodProperties().getNutrition());
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 					} else if (this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
 						this.usePlayerItem(sourceentity, hand, itemstack);
 						this.heal(4);
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 					} else {
 						retval = super.mobInteract(sourceentity, hand);
 					}
@@ -135,12 +135,12 @@ public class BlueBabyEntity extends TamableAnimal implements RangedAttackMob {
 				this.usePlayerItem(sourceentity, hand, itemstack);
 				if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, sourceentity)) {
 					this.tame(sourceentity);
-					this.level.broadcastEntityEvent(this, (byte) 7);
+					this.level().broadcastEntityEvent(this, (byte) 7);
 				} else {
-					this.level.broadcastEntityEvent(this, (byte) 6);
+					this.level().broadcastEntityEvent(this, (byte) 6);
 				}
 				this.setPersistenceRequired();
-				retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+				retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 			} else {
 				retval = super.mobInteract(sourceentity, hand);
 				if (retval == InteractionResult.SUCCESS || retval == InteractionResult.CONSUME)
@@ -169,7 +169,7 @@ public class BlueBabyEntity extends TamableAnimal implements RangedAttackMob {
 
 	public static void init() {
 		SpawnPlacements.register(TboiSuzuModEntities.BLUE_BABY.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

@@ -10,9 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.npc.WanderingTrader;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
@@ -35,7 +33,7 @@ public class TheHermitRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -51,14 +49,10 @@ public class TheHermitRightclickedProcedure {
 				}
 			}
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = new WanderingTrader(EntityType.WANDERING_TRADER, _level);
-				entityToSpawn.moveTo((x + Mth.nextInt(RandomSource.create(), -4, 4)), (y + 1), (z + Mth.nextInt(RandomSource.create(), -4, 4)), 0, 0);
-				entityToSpawn.setYBodyRot(0);
-				entityToSpawn.setYHeadRot(0);
-				entityToSpawn.setDeltaMovement(0, 0, 0);
-				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-				_level.addFreshEntity(entityToSpawn);
+				Entity entityToSpawn = EntityType.WANDERING_TRADER.spawn(_level, BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + 1, z + Mth.nextInt(RandomSource.create(), -4, 4)), MobSpawnType.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setDeltaMovement(0, 0, 0);
+				}
 			}
 			TboiSuzuMod.queueServerWork(10, () -> {
 				if (world instanceof Level _level) {

@@ -58,7 +58,7 @@ public class BeggarRightClickedOnEntityProcedure {
 				}
 				if (entity.getPersistentData().getBoolean("Reward") == true) {
 					entity.getPersistentData().putDouble("ItemReward", (Mth.nextInt(RandomSource.create(), 1, 4)));
-					if (sourceentity instanceof Player _player && !_player.level.isClientSide())
+					if (sourceentity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal(("ItemReward: " + entity.getPersistentData().getDouble("ItemReward") + "")), false);
 					if (entity.getPersistentData().getDouble("ItemReward") == 1) {
 						entity.getPersistentData().putDouble("TypeReward", (Mth.nextInt(RandomSource.create(), 1, 100)));

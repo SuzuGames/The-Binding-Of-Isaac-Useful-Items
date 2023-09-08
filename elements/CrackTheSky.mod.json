@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "crackthesky",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Crack the Sky",
     "rarity": "COMMON",
     "creativeTab": {

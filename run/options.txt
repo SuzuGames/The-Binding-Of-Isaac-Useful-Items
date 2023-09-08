@@ -1,4 +1,4 @@
-version:3337
+version:3465
 autoJump:false
 operatorItemsTab:false
 autoSuggestions:true
@@ -26,13 +26,13 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-glintSpeed:1.0
-glintStrength:1.0
+glintSpeed:0.5
+glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
-renderDistance:5
-simulationDistance:12
+gamma:1.0
+renderDistance:11
+simulationDistance:22
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -91,7 +91,7 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.r
+key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
@@ -102,7 +102,7 @@ key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
-key_key.smoothCamera:key.keyboard.x
+key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
@@ -119,10 +119,10 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.tboi_suzu.tears_shot:key.keyboard.g
-soundCategory_master:1.0
+soundCategory_master:0.42218543046357615
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:0.0
+soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

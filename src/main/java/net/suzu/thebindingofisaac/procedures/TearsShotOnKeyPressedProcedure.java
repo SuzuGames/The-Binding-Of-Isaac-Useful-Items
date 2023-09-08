@@ -14,7 +14,7 @@ public class TearsShotOnKeyPressedProcedure {
 			return;
 		{
 			Entity _shootFrom = entity;
-			Level projectileLevel = _shootFrom.level;
+			Level projectileLevel = _shootFrom.level();
 			if (!projectileLevel.isClientSide()) {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {

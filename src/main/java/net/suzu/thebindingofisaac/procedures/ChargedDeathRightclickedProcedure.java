@@ -36,7 +36,7 @@ public class ChargedDeathRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -54,7 +54,7 @@ public class ChargedDeathRightclickedProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/summon area_effect_cloud ~ ~.50 ~ {Particle:\"dust 0 0 0 1\",Radius:10f,Duration:20,Effects:[{Id:7b,Amplifier:2b,Duration:300},{Id:11b,Amplifier:1b,Duration:20},{Id:20b,Amplifier:0b,Duration:60}]}");
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 20, 200, false, false));
 			TboiSuzuMod.queueServerWork(10, () -> {
 				if (world instanceof Level _level) {

@@ -88,6 +88,7 @@ import net.suzu.thebindingofisaac.item.ChargedTheHierophantItem;
 import net.suzu.thebindingofisaac.item.ChargedTheHermitItem;
 import net.suzu.thebindingofisaac.item.ChargedTheHangedManItem;
 import net.suzu.thebindingofisaac.item.ChargedTheFoolItem;
+import net.suzu.thebindingofisaac.item.ChargedTheEmpressItem;
 import net.suzu.thebindingofisaac.item.ChargedTheEmperorItem;
 import net.suzu.thebindingofisaac.item.ChargedTheDevilItem;
 import net.suzu.thebindingofisaac.item.ChargedTheChariotItem;
@@ -244,6 +245,10 @@ public class TboiSuzuModItems {
 	public static final RegistryObject<Item> BASEMENT_WALL = block(TboiSuzuModBlocks.BASEMENT_WALL);
 	public static final RegistryObject<Item> BASEMENT_FLOOR = block(TboiSuzuModBlocks.BASEMENT_FLOOR);
 	public static final RegistryObject<Item> QUESTION_CARD = REGISTRY.register("question_card", () -> new QuestionCardItem());
+	public static final RegistryObject<Item> CHARGED_THE_EMPRESS = REGISTRY.register("charged_the_empress", () -> new ChargedTheEmpressItem());
+	public static final RegistryObject<Item> BASEMENT_STRUCTURE_BLOCK = block(TboiSuzuModBlocks.BASEMENT_STRUCTURE_BLOCK);
+	public static final RegistryObject<Item> SPIKES = block(TboiSuzuModBlocks.SPIKES);
+	public static final RegistryObject<Item> PINCHOS_OFF = block(TboiSuzuModBlocks.PINCHOS_OFF);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

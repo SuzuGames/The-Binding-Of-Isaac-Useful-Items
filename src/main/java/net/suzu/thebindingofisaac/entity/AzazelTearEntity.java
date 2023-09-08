@@ -66,7 +66,7 @@ public class AzazelTearEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void tick() {
 		super.tick();
-		AzazelTearWhileProjectileFlyingTickProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		AzazelTearWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (this.inGround)
 			this.discard();
 	}
@@ -84,7 +84,7 @@ public class AzazelTearEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static AzazelTearEntity shoot(LivingEntity entity, LivingEntity target) {
-		AzazelTearEntity entityarrow = new AzazelTearEntity(TboiSuzuModEntities.AZAZEL_TEAR.get(), entity, entity.level);
+		AzazelTearEntity entityarrow = new AzazelTearEntity(TboiSuzuModEntities.AZAZEL_TEAR.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
@@ -93,8 +93,8 @@ public class AzazelTearEntity extends AbstractArrow implements ItemSupplier {
 		entityarrow.setBaseDamage(7);
 		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
-		entity.level.addFreshEntity(entityarrow);
-		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
+		entity.level().addFreshEntity(entityarrow);
+		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
 }

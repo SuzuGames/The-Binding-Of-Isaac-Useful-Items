@@ -36,7 +36,7 @@ public class JudgementRightclickedProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
 								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}
@@ -54,7 +54,7 @@ public class JudgementRightclickedProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3((x + Mth.nextInt(RandomSource.create(), -4, 4)), (y + 1), (z + Mth.nextInt(RandomSource.create(), -4, 4))), Vec2.ZERO, _level,
 						4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "/summon piglin ~ ~ ~ {Attributes:[{Name:generic.attack_damage,Base:-1},{Name:generic.movement_speed,Base:0}],IsImmuneToZombification:1b}");
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A74\u00A7lWARNING! - \u00A7cDon't drop weapons/armor near of the piglin, he can attack you if you are near to him. \u00A7eOnly drop \u00A76\u00A7ngold ingots\u00A7e."), false);
 			TboiSuzuMod.queueServerWork(10, () -> {
 				if (world instanceof Level _level) {

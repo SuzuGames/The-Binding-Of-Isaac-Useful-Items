@@ -25,7 +25,7 @@ public class NewTearsProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -53,7 +53,7 @@ public class NewTearsProcedure {
 					_entityToSpawn.shoot(1, 1, 1, 1, 0);
 					projectileLevel.addFreshEntity(_entityToSpawn);
 				}
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("Message"), false);
 			}
 			entity.getPersistentData().putDouble("tears_cooldown", 0);
