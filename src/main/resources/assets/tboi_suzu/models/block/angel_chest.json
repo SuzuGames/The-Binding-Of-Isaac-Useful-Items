@@ -1,9 +1,0 @@
-{
-  "parent": "tboi_suzu:custom/angel_chest",
-  "textures": {
-    "all": "tboi_suzu:block/texture_angel_chest",
-    "particle": "tboi_suzu:block/texture_angel_chest",
-    "1": "tboi_suzu:block/texture_angel_chest"
-  },
-  "render_type": "solid"
-}

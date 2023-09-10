@@ -1,9 +1,0 @@
-{
-  "parent": "tboi_suzu:custom/red_chest",
-  "textures": {
-    "all": "tboi_suzu:block/texture_red_chest",
-    "particle": "tboi_suzu:block/texture_red_chest",
-    "1": "tboi_suzu:block/texture_red_chest"
-  },
-  "render_type": "solid"
-}
