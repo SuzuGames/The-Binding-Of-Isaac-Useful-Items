@@ -1,9 +1,0 @@
-{
-  "parent": "tboi_suzu:custom/bloodmachine",
-  "textures": {
-    "all": "tboi_suzu:block/texture1",
-    "particle": "tboi_suzu:block/texture1",
-    "0": "tboi_suzu:block/texture1"
-  },
-  "render_type": "solid"
-}

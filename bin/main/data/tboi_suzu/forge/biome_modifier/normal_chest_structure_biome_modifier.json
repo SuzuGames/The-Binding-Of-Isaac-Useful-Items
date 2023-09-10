@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "tboi_suzu:normal_chest_structure",
-  "step": "surface_structures"
-}
