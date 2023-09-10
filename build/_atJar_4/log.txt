@@ -1,7 +1,0 @@
-Java Launcher: C:\Users\Suzu.DESKTOP-ST8TI9D\Desktop\Mcreator Snapshot\jdk\bin\java.exe
-Arguments: '--inJar, C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\The-Binding-Of-Isaac-Useful-Items - snapshot\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0\forge-1.20.1-47.1.0-injected.jar, --outJar, C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\The-Binding-Of-Isaac-Useful-Items - snapshot\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\The-Binding-Of-Isaac-Useful-Items - snapshot\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\The-Binding-Of-Isaac-Useful-Items - snapshot\build\_atJar_4\parent_at.cfg'
-Classpath:
- - C:\Users\Suzu.DESKTOP-ST8TI9D\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\Suzu.DESKTOP-ST8TI9D\MCreatorWorkspaces\The-Binding-Of-Isaac-Useful-Items - snapshot\build\_atJar_4
-Main class: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================
